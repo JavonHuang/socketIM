@@ -10,7 +10,7 @@
     <div class="chat-contain" ref="gchatcontain">
       <div v-for="(item,index) in msgList" v-bind:key="index">
         <div v-if="item.fromuserid!=userInfo.userid" class="list-item left">
-          <img class="list-photo photo-left" v-bind:src="item.img!=null?item.img:'./../../assets/img/my.jpg'"/>
+          <img class="list-photo photo-left" v-bind:src="item.img!=null?item.img:require('./../../assets/img/my.jpg')"/>
           <div class="list-text">
             {{item.text}}
           </div>
@@ -20,7 +20,7 @@
           <div class="list-text">
             {{item.text}}
           </div>
-          <img class="list-photo photo-right" v-bind:src="userInfo.img!=null?userInfo.img:'./../../assets/img/my.jpg'"/>
+          <img class="list-photo photo-right" v-bind:src="userInfo.img!=null?userInfo.img:require('./../../assets/img/my.jpg')"/>
           <span class="triangular-right"></span>
         </div>   
       </div>

@@ -45,7 +45,7 @@ const getGroupMessageList=async(homeid:number)=>{
     group_message a
     LEFT JOIN user_info b ON a.fromuserid = b.userid
     LEFT JOIN friend_note c on a.fromuserid=c.friendid
-    WHERE a.homeid=?`;
+    WHERE a.homeid=? ORDER BY a.id`;
     let result=await dbUnity.query(sql,[homeid]);
     return result;
   }catch(e){
