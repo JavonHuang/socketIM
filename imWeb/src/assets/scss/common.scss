@@ -1,0 +1,122 @@
+/*颜色板*/
+$color01:#ffffff9e;
+$color02:#f7f7f7;
+$color03:#FF3B30;
+$color04:#FF9500;
+$color05:#4CD964;
+/*边框线板*/
+$borderColor01:#ffffff9e;
+$borderColor02:#f7f7f7;
+$borderColor03:#53bf5b;
+$borderColor04:#F2F6FC;
+/*底色背景板*/
+$backgroundColor01:#f7f7f7;
+$backgroundColor02:#f3f3f3;
+$backgroundColor03:#dedede;
+$backgroundColor04:#53bf5b;
+$backgroundColor05:#fbfbfb;
+/*字体板*/
+$fontFamily:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Source Han Sans",SimSun, sans-serif;
+$fontFamilyZHCN:PingFangSC-Regular;
+$fontFamilyEN:SFUIText-Regular;
+$fontFamilyNum:HelveticaNeue;
+$fontFamilyCode:Consolas;
+
+$font24:24px;
+$font26:26px;
+$font28:28px;
+$font30:30px;
+$font32:32px;
+$font36:36px;
+
+$fontColor01:#ffffff9e;
+$fontColor02:#7d7d7d;;
+$fontColor03:#1989fa;
+$fontColor04:#fff;
+$fontColor05:#53bf5b;
+$fontColor06:rgba(204,204,204,1);
+
+@mixin font24($color:$fontColor01,$fontFamily:$fontFamilyZHCN) {
+  font-family: $fontFamily;
+  font-size:24px;
+  line-height:24px;
+  color:$color;
+}
+@mixin font26($color:$fontColor01,$fontFamily:$fontFamilyZHCN) {
+  font-family: $fontFamily;
+  font-size:26px;
+  line-height:26px;
+  color:$color;
+}
+@mixin font28($color:$fontColor01,$fontFamily:$fontFamilyZHCN) {
+  font-family: $fontFamily;
+  font-size:28px;
+  line-height:28px;
+  color:$color;
+}
+@mixin font30($color:$fontColor01,$fontFamily:$fontFamilyZHCN) {
+  font-family: $fontFamily;
+  font-size:30px;
+  line-height:30px;
+  color:$color;
+}
+@mixin font32($color:$fontColor01,$fontFamily:$fontFamilyZHCN) {
+  font-family: $fontFamily;
+  font-size:32px;
+  line-height:32px;
+  color:$color;
+}
+@mixin font36($color:$fontColor01,$fontFamily:$fontFamilyZHCN) {
+  font-family: $fontFamily;
+  font-size:36px;
+  line-height:36px;
+  color:$color;
+}
+@mixin font($font:28px,$color:$fontColor01,$fontFamily:$fontFamilyZHCN) {
+  font-family: $fontFamily;
+  font-size:$font;
+  line-height:30px;
+  color:$color;
+}
+:export {
+  color: {
+    color01:$color01;
+    color02:$color02;
+    color03:$color03;
+    color04:$color04;
+    color05:$color05;
+  };
+  borderColor: {
+    borderColor01:$borderColor01;
+    borderColor02:$borderColor02;
+    borderColor03:$borderColor03;
+    borderColor04:$borderColor04;
+  };
+  backgroundColor: {
+    backgroundColor01:$backgroundColor01;
+    backgroundColor02:$backgroundColor02;
+  };
+  fontFamily: {
+    fontFamily:$fontFamily;
+    fontFamilyZHCN:$fontFamilyZHCN;
+    fontFamilyEN:$fontFamilyEN;
+    fontFamilyNum:$fontFamilyNum;
+    fontFamilyCode:$fontFamilyCode;
+  };
+  font: {
+    font24:$font24;
+    font26:$font26;
+    font28:$font28;
+    font30:$font30;
+    font32:$font32;
+    font36:$font36;
+  };
+  fontColor: {
+    fontColor01:$fontColor01;
+    fontColor02:$fontColor02;
+    fontColor03:$fontColor03;
+    fontColor04:$fontColor04;
+    fontColor05:$fontColor05;
+    fontColor06:$fontColor06;
+  }
+}

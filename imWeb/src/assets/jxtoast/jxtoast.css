@@ -1,0 +1,30 @@
+.error-layout{
+    position: fixed;
+    width:200px;
+    height:200px;
+    border-radius:20px;
+    background-color:#000;
+    opacity:0.8;
+    color:#ffff;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+.error-img{
+    width: 80px;
+    height: 80px;
+    margin: 30px auto;
+    background-image: url('./error.png');
+    background-size: 100% 100%;
+}
+.error-span{
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    display: block;
+    margin: auto;
+    text-align: center;
+}

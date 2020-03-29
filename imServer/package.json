@@ -1,0 +1,31 @@
+{
+  "name": "imserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production tsc && node dist/app.js",
+    "watch-server": "cross-env NODE_ENV=dev nodemon --watch ./src/app.ts -e ts,tsx --exec ts-node ./src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-controllers": "^0.1.6",
+    "koa-json": "^2.0.2",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1",
+    "redis": "^2.8.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}

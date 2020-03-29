@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="13px" viewBox="0 0 20 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>7B3E06CE-4A69-4ED8-B1D2-1772577AF875</title>
+    <desc>Created with Sketch.</desc>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新邮件99＋">
+            <g id="新邮件">
+                <circle id="椭圆形" fill="red" cx="6.5" cy="6.5" r="6.5"></circle>
+                <rect id="矩形" fill="red" x="0" y="0" width="20" height="13" rx="6.5"></rect>
+                <text id="99+" font-family="PingFangSC-Regular, PingFang SC" font-size="9" font-weight="normal" line-spacing="9" fill="#FFFFFF">
+                    <tspan x="2" y="9.5">99+</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
