@@ -14,7 +14,7 @@
     "build:uat": "cross-env NODE_ENV=uat env_config=uat node --max_old_space_size=512 build/build.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "cross-env": "^5.2.0",
     "cssnano": "^4.1.10",
