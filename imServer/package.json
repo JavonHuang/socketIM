@@ -14,7 +14,7 @@
     "cross-env": "^7.0.2",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.11.0",
-    "koa-bodyparser": "^3.2.0",
+    "koa-bodyparser": "^4.3.0",
     "koa-controllers": "^0.1.6",
     "koa-json": "^2.0.2",
     "koa2-cors": "^2.0.6",
